@@ -1,0 +1,2 @@
+C:\Users\am312792\AppData\Local\Temporary Projects\OrganTrail\bin\Debug\OrganTrail.exe.config
+C:\Users\am312792\Desktop\OrganTrail\OrganTrail\bin\Debug\OrganTrail.exe.config
