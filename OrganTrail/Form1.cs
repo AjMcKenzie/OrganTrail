@@ -15,6 +15,12 @@ namespace OrganTrail
         public Form1()
         {
             InitializeComponent();
+
+        }
+
+        private void txtChoice_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
