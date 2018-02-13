@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace OrganTrail
 {
-    public partial class Form1 : Form
+    public partial class MainMenu : Form
     {
-        public Form1()
+        public MainMenu()
         {
             InitializeComponent();
 
@@ -25,15 +25,15 @@ namespace OrganTrail
 
             if (choice == "1")
             {
-                label6.Visible = false;
-                label7.Visible = true;
                 txtChoice.Focus();
             } 
             else if (choice == "2")
             {
-                label6.Visible = true;
-                label7.Visible = false;
                 txtChoice.Focus();
+                txtChoice.Clear();
+                Form mapForm = new map();
+                mapForm.Show();
+                
             }
             else if (choice == "3")
             {
