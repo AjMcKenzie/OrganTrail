@@ -4,8 +4,9 @@ C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\bin\Debug\OrganTrail.exe.
 C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\bin\Debug\OrganTrail.exe
 C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\bin\Debug\OrganTrail.pdb
 C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\obj\Debug\OrganTrail.csprojResolveAssemblyReference.cache
-C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\obj\Debug\OrganTrail.Form1.resources
 C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\obj\Debug\OrganTrail.Properties.Resources.resources
 C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\obj\Debug\OrganTrail.csproj.GenerateResource.Cache
 C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\obj\Debug\OrganTrail.exe
 C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\obj\Debug\OrganTrail.pdb
+C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\obj\Debug\OrganTrail.MainMenu.resources
+C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\obj\Debug\OrganTrail.map.resources
