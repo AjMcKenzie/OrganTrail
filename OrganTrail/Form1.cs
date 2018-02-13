@@ -20,17 +20,27 @@ namespace OrganTrail
 
         private void txtChoice_TextChanged(object sender, EventArgs e)
         {
-             
-        }
-        //public void OnKeyDownHandler(object sender, KeyEventArgs e)
-        //{
-        //    if (e.KeyCode == Keys.Enter)
-        //    {
-        //        label1.Visible = false;
-        //    }
-        //}
+            string choice;
+            choice = txtChoice.Text;
 
-        public event KeyPressEventHandler KeyPress;
+            if (choice == "1")
+            {
+                label6.Visible = false;
+                label7.Visible = true;
+                txtChoice.Focus();
+            } 
+            else if (choice == "2")
+            {
+                label6.Visible = true;
+                label7.Visible = false;
+                txtChoice.Focus();
+            }
+            else if (choice == "3")
+            {
+                this.Close();
+            }
+        }
+       
         
     }
 }
