@@ -20,7 +20,27 @@ namespace OrganTrail
 
         private void txtChoice_TextChanged(object sender, EventArgs e)
         {
+            string choice;
+            choice = txtChoice.Text;
 
+            if (choice == "1")
+            {
+                label6.Visible = false;
+                label7.Visible = true;
+                txtChoice.Focus();
+            } 
+            else if (choice == "2")
+            {
+                label6.Visible = true;
+                label7.Visible = false;
+                txtChoice.Focus();
+            }
+            else if (choice == "3")
+            {
+                this.Close();
+            }
         }
+       
+        
     }
 }
