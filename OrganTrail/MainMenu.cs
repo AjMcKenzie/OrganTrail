@@ -23,24 +23,49 @@ namespace OrganTrail
             string choice;
             choice = txtChoice.Text;
 
+
             if (choice == "1")
             {
-                txtChoice.Focus();
+                gbPerson.Visible = true;
+                gbMenu.Visible = false;
+                txtChoice.Visible= false;
+                txtPerson.Visible = true;
+                txtChoice.Enabled = false;
             } 
             else if (choice == "2")
             {
                 txtChoice.Focus();
-                txtChoice.Clear();
                 Form mapForm = new map();
                 mapForm.Show();
-                
             }
             else if (choice == "3")
             {
                 this.Close();
             }
+
         }
-       
-        
+
+        private void txtPerson_TextChanged(object sender, EventArgs e)
+        {
+            string person;
+            person = txtPerson.Text;
+
+            if (person == "1")
+            {
+                Form bankerForm = new Form();
+                bankerForm.Show();
+            }
+            else if (person == "2")
+            {
+                Form carpenterForm = new Form();
+                carpenterForm.Show();
+            }
+            else if (person == "3")
+            {
+                Form farmerForm = new Form();
+                farmerForm.Show();
+            }
+            
+        }
     }
 }
