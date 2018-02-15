@@ -40,6 +40,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtPerson = new System.Windows.Forms.TextBox();
+            this.btnStartTheHunt = new System.Windows.Forms.Button();
             this.gbMenu.SuspendLayout();
             this.gbPerson.SuspendLayout();
             this.SuspendLayout();
@@ -182,12 +183,23 @@
             this.txtPerson.Visible = false;
             this.txtPerson.TextChanged += new System.EventHandler(this.txtPerson_TextChanged);
             // 
+            // btnStartTheHunt
+            // 
+            this.btnStartTheHunt.Location = new System.Drawing.Point(34, 128);
+            this.btnStartTheHunt.Name = "btnStartTheHunt";
+            this.btnStartTheHunt.Size = new System.Drawing.Size(91, 36);
+            this.btnStartTheHunt.TabIndex = 5;
+            this.btnStartTheHunt.Text = "Start the Hurt";
+            this.btnStartTheHunt.UseVisualStyleBackColor = true;
+            this.btnStartTheHunt.Click += new System.EventHandler(this.btnStartTheHunt_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(709, 377);
+            this.Controls.Add(this.btnStartTheHunt);
             this.Controls.Add(this.txtPerson);
             this.Controls.Add(this.gbPerson);
             this.Controls.Add(this.label5);
@@ -219,6 +231,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtPerson;
+        private System.Windows.Forms.Button btnStartTheHunt;
     }
 }
 

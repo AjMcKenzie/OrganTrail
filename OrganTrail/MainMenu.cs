@@ -67,5 +67,11 @@ namespace OrganTrail
             }
             
         }
+
+        private void btnStartTheHunt_Click(object sender, EventArgs e)
+        {
+            Form HuntingGame  = new Form();
+            HuntingGame.Show();
+        }
     }
 }
