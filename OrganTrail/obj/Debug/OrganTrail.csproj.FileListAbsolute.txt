@@ -21,3 +21,4 @@ C:\Users\jp134125\Desktop\OrganTrail\OrganTrail\obj\Debug\OrganTrail.MainMenu.re
 C:\Users\jp134125\Desktop\OrganTrail\OrganTrail\obj\Debug\OrganTrail.map.resources
 C:\Users\jp134125\Desktop\OrganTrail\OrganTrail\obj\Debug\OrganTrail.Properties.Resources.resources
 C:\Users\jp134125\Desktop\OrganTrail\OrganTrail\obj\Debug\OrganTrail.csproj.GenerateResource.Cache
+C:\Users\am312792\Desktop\CSharp\OrganTrail\OrganTrail\obj\Debug\OrganTrail.HuntingGame.resources
